@@ -1,2 +1,2 @@
-tempfiles/
-test/
+tempfiles/*
+test/*
