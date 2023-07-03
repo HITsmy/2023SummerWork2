@@ -21,7 +21,7 @@ def main():
         HTTP_list.append(HTTP_listForFile)
         HTTPS_list.append(HTTPS_listForFile)
 
-    os.chdir(r"F:\大二下\小学期\2023SummerWork2")
+    os.chdir(r"/home/smy/Capreolus")
     workbook = openpyxl.load_workbook("sni_info.xlsx")
     HTTPS = workbook['HTTPS']
     HTTP = workbook['HTTP']
