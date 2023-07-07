@@ -11,8 +11,8 @@ def execute(apk):
     
 
 def main():
-    apks = os.listdir("/home/smy/Capreolus/test")
-    with ThreadPoolExecutor(3) as t:
+    apks = os.listdir("./test")
+    with ThreadPoolExecutor(5) as t:
         for apk in apks:	
             t.submit(execute, apk)
 

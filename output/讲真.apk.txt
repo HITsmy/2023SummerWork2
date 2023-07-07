@@ -1,0 +1,3 @@
+https://publicsuffix.org
+https://mozilla.org
+

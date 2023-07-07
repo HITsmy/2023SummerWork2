@@ -21,7 +21,7 @@ def main():
         HTTP_list.append(HTTP_listForFile)
         HTTPS_list.append(HTTPS_listForFile)
 
-    os.chdir(r"/home/smy/Capreolus")
+    os.chdir(r"/home/smy/Work/2023SummerWork2")
     workbook = openpyxl.load_workbook("sni_info.xlsx")
     HTTPS = workbook['HTTPS']
     HTTP = workbook['HTTP']
@@ -45,7 +45,7 @@ def main():
             print("over2")
 
     workbook.save("sni_info.xlsx")
-
+    print("over")
    
 if __name__ == "__main__":
     main()
